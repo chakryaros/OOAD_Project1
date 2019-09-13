@@ -1,7 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Animals c = new Cat("Catty", 2);
+        c.Sleep();
+
 
 
     }

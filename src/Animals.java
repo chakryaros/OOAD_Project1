@@ -1,7 +1,17 @@
 public class Animals {
 
-    public void makeNoise()
+//    private String animalsName;
+//
+//    Animals(String n){
+//        this.animalsName = n;
+//    }
+
+
+
+
+    public void Sleep()
     {
-        System.out.println("Animals")
+        System.out.println("Animals are sleeping");
     }
+
 }
