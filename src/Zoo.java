@@ -1,2 +1,4 @@
-public class Zoo {
+public class Zoo extends Animals {
+
+    Animals =
 }
