@@ -5,7 +5,9 @@ public class Main {
         Animals c = new Cat("Catty", 2);
         c.Sleep();
 
+        c.displayName();
 
+        c.makeNoise();
 
     }
 

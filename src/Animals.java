@@ -13,5 +13,13 @@ public class Animals {
     {
         System.out.println("Animals are sleeping");
     }
+    
+    public void makeNoise() {
+        System.out.print("....");
+    }
+
+    public void  displayName(){
+        System.out.print("....");
+    }
 
 }

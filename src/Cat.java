@@ -8,13 +8,13 @@ public class Cat extends Feline {
         this.age = age;
     }
 
-    public void makeNoisse() {
+    public void makeNoise() {
         System.out.println("meo meo!!!");
     }
 
     public void displayName(){
         System.out.println("This animal's name : " + this.catName);
-        System.out.println(this.catName + "is" + this.age + " years old");
+        System.out.println(this.catName + " is " + this.age + " years old.");
     }
 }
 
