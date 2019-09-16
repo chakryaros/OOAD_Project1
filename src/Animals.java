@@ -1,3 +1,5 @@
+package src;
+
 public class Animals {
 
 //    private String animalsName;
@@ -9,7 +11,7 @@ public class Animals {
 
 
 
-    public void Sleep()
+    public void sleep()
     {
         System.out.println("Animals are sleeping");
     }
@@ -21,5 +23,10 @@ public class Animals {
     public void  displayName(){
         System.out.print("....");
     }
+    
+    public void upsetAnimal(){
+        System.out.println("doesn't matter");
+    }
+    
 
 }

@@ -1,3 +1,5 @@
+package src;
+
 public class Cat extends Feline {
 
     private String catName;
