@@ -1,9 +1,10 @@
-package src;
+//package src;
 
 public class Lion extends Feline {
+
     private String LionName;
 
-    Cat(String name) {
+    Lion(String name) {
       this.LionName = name;
     }
 

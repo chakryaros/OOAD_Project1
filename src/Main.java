@@ -1,16 +1,17 @@
-package src;
+//package src;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
-      List<Animals> arr = new ArrayList<Animals>();
+      ArrayList<Animals> arr = new ArrayList<Animals>();
 
       Animals c = new Cat("Cathy");
       arr.add(c);
       Animals l = new Lion("Leon");
-      arr.add(l)
-      Animals w = new Coyote("Warren");
+      arr.add(l);
+      Animals w = new Wolf ("Warren");
       arr.add(w);
       Animals d = new Dog("Daniel");
       arr.add(d);
@@ -19,13 +20,13 @@ public class Main {
       Animals e = new Elephant("Eva");
       arr.add(e);
 
-      Zookeeper keeper = new Zookeeper("OOAD");
+      Zookeeper keeper = new Zookeeper(arr);
 
-      keeper.wakeAnimals(arr);
-      keeper.callAnimals(arr);
-      keeper.feedAnimals(arr);
-      keeper.exerciseAnimals(arr);
-      keeper.shutDownZoo(arr);
+      keeper.wakeAnimals();
+//      keeper.callAnimals();
+//      keeper.feedAnimals();
+//      keeper.exerciseAnimals();
+//      keeper.shutDownZoo();
 
 
         // cat test
@@ -54,10 +55,10 @@ public class Main {
 
         // Zookeeper Interaction Test
         // This will be the primary way of calling animal methods
-        Zookeeper zk = new Zookeeper("Zelda", 39);
-        zk.workWithDogs("Daniel", 2);
-
-        zk.workWithCoyotes("Carl", 3);
+//        Zookeeper zk = new Zookeeper("Zelda", 39);
+//        zk.workWithDogs("Daniel", 2);
+//
+//        zk.workWithCoyotes("Carl", 3);
     }
 
 

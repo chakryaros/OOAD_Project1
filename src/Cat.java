@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 public class Cat extends Feline {
 
@@ -9,7 +9,7 @@ public class Cat extends Feline {
     }
 
     public String getName(){
-      return this.LionName;
+      return this.catName;
     }
 
     public void makeNoise() {
