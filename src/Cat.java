@@ -3,23 +3,21 @@ package src;
 public class Cat extends Feline {
 
     private String catName;
-    private int age;
 
-    Cat(String name, int age) {
-        this.catName = name;
-        this.age = age;
+    Cat(String name) {
+      this.catName = name;
+    }
+
+    public String getName(){
+      return this.LionName;
     }
 
     public void makeNoise() {
-        System.out.println("meo meo!!!");
+      System.out.println("Meow Meow!");
     }
 
-    public void displayName(){
-        System.out.println("This animal's name : " + this.catName);
-        System.out.println(this.catName + " is " + this.age + " years old.");
+    public void wakeUp(){
+      System.out.println(this.catName + " slowly opens his/her eyes and stretches.");
     }
+
 }
-
-
-
-
