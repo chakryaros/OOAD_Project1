@@ -13,5 +13,20 @@ public class Animals {
     public void wakeUp() {
         System.out.println("...");
     }
+    public void makeNoise() {
+        System.out.println("...");
+    }
+
+    public void eat(String name) {
+        System.out.println("...");
+    }
+
+    public void roam(String name) {
+        System.out.println("...");
+    }
+
+    public String getName(){
+       return "..";
+    }
 }
-    
+

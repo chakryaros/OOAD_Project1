@@ -23,10 +23,10 @@ public class Main {
       Zookeeper keeper = new Zookeeper(arr);
 
       keeper.wakeAnimals();
-//      keeper.callAnimals();
-//      keeper.feedAnimals();
-//      keeper.exerciseAnimals();
-//      keeper.shutDownZoo();
+      keeper.callAnimals();
+      keeper.feedAnimals();
+      keeper.exerciseAnimals();
+      keeper.shutDownZoo();
 
 
         // cat test
