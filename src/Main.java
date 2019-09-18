@@ -23,10 +23,19 @@ public class Main {
       Zookeeper keeper = new Zookeeper(arr);
 
       keeper.wakeAnimals();
+      System.out.println("");
+
       keeper.callAnimals();
+      System.out.println("");
+
       keeper.feedAnimals();
+      System.out.println("");
+
       keeper.exerciseAnimals();
+      System.out.println("");
+
       keeper.shutDownZoo();
+      System.out.println("");
 
 
         // cat test

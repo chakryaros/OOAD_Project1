@@ -1,4 +1,5 @@
 //package src;
+import java.util.Random;
 
 public class Cat extends Feline {
 
@@ -17,7 +18,18 @@ public class Cat extends Feline {
     }
 
     public void wakeUp(){
-      System.out.println(this.catName + " slowly opens his/her eyes and stretches.");
+        Random rand = new Random();
+        int rand_int = rand.nextInt(3);
+
+        if(rand_int == 0) {
+            System.out.println(this.catName + " slowly opens his/her eyes and stretches.");
+        }
+        else if(rand_int == 1){
+            System.out.println(this.catName + " wakes up angry because she didn't get enough sleep.");
+        }
+        else{
+            System.out.println(this.catName + " wakes up crying because she had a nightmare.");
+        }
     }
 
 }
