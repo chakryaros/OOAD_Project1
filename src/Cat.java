@@ -1,14 +1,15 @@
-//package src;
 import java.util.Random;
-
+// subclass of Feline
 public class Cat extends Feline {
 
     private String catName;
 
+    // constructor
     Cat(String name) {
       this.catName = name;
     }
 
+    // for runtime name retrieval, getter
     public String getName(){
       return this.catName;
     }
@@ -17,7 +18,10 @@ public class Cat extends Feline {
       return "Meow Meow!";
     }
 
+    // implementation of Animals object superclass wakeUp()
     public String wakeUp(){
+
+        // another random output generator
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 

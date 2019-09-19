@@ -1,13 +1,12 @@
-//package src;
 import java.util.Random;
-
+// 1st tier subclass (of Animals)
 public class Pachyderm extends Animals {
 
   Pachyderm(){
-    // System.out.println("The Zookeeper tends to the Pachyderm side of the zoo");
   }
-
+  // implementation of roam() superclass method
   public String roam(String name){
+    // random output generator
     Random rand = new Random();
     int rand_int = rand.nextInt(3);
 
@@ -21,7 +20,7 @@ public class Pachyderm extends Animals {
       return name + " roams a little and stopped.";
     }
   }
-
+  // implementation of eat()
   public String eat(String name){
     return name + " eats the banana in a hurry!";
   }

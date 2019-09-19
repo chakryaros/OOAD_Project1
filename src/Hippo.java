@@ -1,8 +1,8 @@
-//package src;
 
+// subclass of Pachyderm
 public class Hippo extends Pachyderm{
   private String HipName;
-
+  // constructor
   Hippo(String name) {
     this.HipName = name;
   }
@@ -11,6 +11,7 @@ public class Hippo extends Pachyderm{
     return this.HipName;
   }
 
+  // implementations of superclass methods, makeNoise() and wakeUp()
   public String makeNoise() {
     return "Wheez Wheez!";
   }

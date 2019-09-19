@@ -11,7 +11,7 @@ public class Wolf extends Canine{
     public String getName(){
       return this.wolfName;
     }
-
+    // makeNoise() and wakeUp() are implementations of superclass methods
     public String makeNoise(){
         return "Woof Woof!";
     }

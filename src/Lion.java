@@ -1,9 +1,8 @@
-//package src;
-
+// subclass of Feline
 public class Lion extends Feline {
 
     private String LionName;
-
+    // constructor
     Lion(String name) {
       this.LionName = name;
     }
@@ -11,7 +10,7 @@ public class Lion extends Feline {
     public String getName(){
       return this.LionName;
     }
-
+    // makeNoise() and wakeUp() are implementations of superclass methods
     public String makeNoise() {
       return "Roar Roar!";
     }

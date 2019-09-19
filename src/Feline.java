@@ -1,14 +1,14 @@
-//package src;
 
 import java.util.Random;
 
+// 1st tier subclass
 public class Feline extends Animals {
 
     Feline(){
-      // System.out.println("The Zookeeper tends to the Feline side of the zoo");
     }
-
+    // implementation of superclass method
     public String roam(String name){
+        // random output
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 
@@ -22,7 +22,7 @@ public class Feline extends Animals {
             return name + " roams a little and stopped.";
         }
     }
-
+    // implementation of superclass Animal method
     public String eat(String name){
       return name + " eats the fish in a hurry!";
     }

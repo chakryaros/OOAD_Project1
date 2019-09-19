@@ -4,14 +4,20 @@ import java.util.Random;
 
 public class Canine extends Animals {
     Canine(){
-      // System.out.println("The Zookeeper tends to the Canine side of the zoo");
     }
 
+    /*
+     *eat() and roam() are to be unmodified by subclasses
+     */
     public String eat(String name){
         return name + " eats the steak in a hurry!";
     }
 
+    /*
+     * another random response generator
+     */
     public String roam(String name){
+        // generating then selecting random number
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 

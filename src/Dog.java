@@ -1,6 +1,5 @@
-//package src;
 import java.util.Random;
-
+// subclass of Canine
 public class Dog extends Canine {
     private String dogName;
 
@@ -13,7 +12,9 @@ public class Dog extends Canine {
       return this.dogName;
     }
 
+    // implementation of superclass method makeNoise()
     public String makeNoise(){
+        // random output
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 
@@ -28,6 +29,7 @@ public class Dog extends Canine {
         }
     }
 
+    // implemntation of superclass Animals
     public String wakeUp(){
         return this.dogName + " slowly opens his/her eyes and stretches.";
     }

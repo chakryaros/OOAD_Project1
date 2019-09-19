@@ -1,29 +1,35 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-//package src;
 
 
 public class Zookeeper extends Animals {
 
-    private ArrayList<Animals> arr = new ArrayList<Animals>(); //in driver class Zoo?
+    private ArrayList<Animals> arr = new ArrayList<Animals>(); //Arraylist to contain Animal objects
 
-    private ArrayList<String> res = new ArrayList<String>();
+    private ArrayList<String> res = new ArrayList<String>();    //output array
 
+        // constructor, taking Animal objects already declared for use here
         Zookeeper(ArrayList<Animals> animals_array){
             this.arr = animals_array;
         }
 
-        public void wakeAnimals(){
-            this.res.add("Time to Open the Zoo! Zookeeper starts to wake up all the animals.");
 
+        /*
+         * callAnimals(), feedAnimals(), exerciseAnimals(), and shutdownZoo() all follow the logic of wakeAnimals()
+         */
+        public void wakeAnimals(){
+            // add output to string array
+            this.res.add("Time to Open the Zoo! Zookeeper starts to wake up all the animals.");
+            // waking up all animals, adding output to string array
             for(int i = 0; i < this.arr.size(); i++){
                 this.res.add(this.arr.get(i).wakeUp());
             }
-
+            // seperating this set of outputs in the output.txt file
             this.res.add(System.getProperty( "line.separator" ));
         }
 
+        // elicits noise from animals
         public void callAnimals(){
             this.res.add("To make sure everyone is here, Zookeeper starts to call all the animals.");
 
@@ -33,6 +39,7 @@ public class Zookeeper extends Animals {
 
             this.res.add(System.getProperty( "line.separator" ));
         }
+
 
         public void feedAnimals(){
             this.res.add("Can't start working when you are hungry, so Zookeeper starts to feed all the animals.");
@@ -67,10 +74,11 @@ public class Zookeeper extends Animals {
             this.res.add(System.getProperty( "line.separator" ));
         }
 
+        // function uses Java method fileWriter to insert each Zookeeper/Animal response to the output.txt file
         public void useFileWriter() throws IOException {
-
-            FileWriter fileWriter = new FileWriter("/Users/cassiecao/Desktop/CSCI 4448/OOAD_Project1/output.txt");
-
+            // will need to set this path to the location of the project on machine
+            FileWriter fileWriter = new FileWriter("C:/Users/warre/Documents/NetBeansProjects/Zoo2.0/OOAD_Project1/output.txt");
+            // adding each entry into output.txt
             for(int i = 0; i < this.res.size(); i++){
                 fileWriter.write(this.res.get(i));
                 fileWriter.write(System.getProperty( "line.separator" ));

@@ -1,13 +1,18 @@
-//package src;
 import java.util.Random;
 
+/*
+ * Superclass for all animal types
+ * Contains the random number generator that creates a variable output in the sleep() method
+ */
 public class Animals {
 
     Animals(){
 
     }
 
+    // sleep method to be unmodified by sublcasses
     public String sleep(String name){
+        // random output generator
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 
@@ -22,6 +27,9 @@ public class Animals {
         }
     }
 
+    /*
+     * Contains method signatures to be inherited and modified
+     */
     public String wakeUp() {
         return "...";
     }
