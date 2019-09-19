@@ -11,11 +11,11 @@ public class Hippo extends Pachyderm{
     return this.HipName;
   }
 
-  public void makeNoise() {
-    System.out.println("Wheez Wheez!");
+  public String makeNoise() {
+    return "Wheez Wheez!";
   }
 
-  public void wakeUp(){
-    System.out.println(this.HipName + " slowly opens his/her eyes and stretches.");
+  public String wakeUp(){
+    return this.HipName + " slowly opens his/her eyes and stretches.";
   }
 }

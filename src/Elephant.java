@@ -11,11 +11,11 @@ public class Elephant extends Pachyderm {
     return this.EleName;
   }
 
-  public void makeNoise() {
-    System.out.println("Heah Heah!");
+  public String makeNoise() {
+    return "Heah Heah!";
   }
 
-  public void wakeUp(){
-    System.out.println(this.EleName + " slowly opens his/her eyes and stretches.");
+  public String wakeUp(){
+    return this.EleName + " slowly opens his/her eyes and stretches.";
   }
 }

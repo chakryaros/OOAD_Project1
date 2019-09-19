@@ -7,18 +7,25 @@
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Canine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Canine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Elephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Elephant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Feline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Feline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/META-INF/OOAD_Project1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Hippo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Hippo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Lion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Pachyderm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Pachyderm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Wolf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOAD_Project1/Zookeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOAD_Project1/Zookeeper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Canine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elephant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Feline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hippo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hippo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pachyderm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pachyderm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zookeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zookeeper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

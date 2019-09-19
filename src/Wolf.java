@@ -12,11 +12,11 @@ public class Wolf extends Canine{
       return this.wolfName;
     }
 
-    public void makeNoise(){
-        System.out.println("Woof Woof!");
+    public String makeNoise(){
+        return "Woof Woof!";
     }
 
-    public void wakeUp(){
-        System.out.println(this.wolfName + " slowly opens his/her eyes and stretches.");
+    public String wakeUp(){
+        return this.wolfName + " slowly opens his/her eyes and stretches.";
     }
 }

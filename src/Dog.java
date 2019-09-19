@@ -13,23 +13,23 @@ public class Dog extends Canine {
       return this.dogName;
     }
 
-    public void makeNoise(){
+    public String makeNoise(){
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 
         if(rand_int == 0){
-            System.out.println("Bark Bark!");
+            return "Bark Bark!";
         }
         else if(rand_int == 1){
-            System.out.println("Barkkkkkkk! Because " + this.dogName + " is very hungry!");
+            return "Barkkkkkkk! Because " + this.dogName + " is very hungry!";
         }
         else{
-            System.out.println("Whinn... Because" + this.dogName + " is sick!");
+            return "Whinn... Because " + this.dogName + " is sick!";
         }
     }
 
-    public void wakeUp(){
-        System.out.println(this.dogName + " slowly opens his/her eyes and stretches.");
+    public String wakeUp(){
+        return this.dogName + " slowly opens his/her eyes and stretches.";
     }
 
 }

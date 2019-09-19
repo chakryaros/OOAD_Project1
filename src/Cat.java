@@ -13,22 +13,22 @@ public class Cat extends Feline {
       return this.catName;
     }
 
-    public void makeNoise() {
-      System.out.println("Meow Meow!");
+    public String makeNoise() {
+      return "Meow Meow!";
     }
 
-    public void wakeUp(){
+    public String wakeUp(){
         Random rand = new Random();
         int rand_int = rand.nextInt(3);
 
         if(rand_int == 0) {
-            System.out.println(this.catName + " slowly opens his/her eyes and stretches.");
+            return this.catName + " slowly opens his/her eyes and stretches.";
         }
         else if(rand_int == 1){
-            System.out.println(this.catName + " wakes up angry because she didn't get enough sleep.");
+            return this.catName + " wakes up angry because she didn't get enough sleep.";
         }
         else{
-            System.out.println(this.catName + " wakes up crying because she had a nightmare.");
+            return this.catName + " wakes up crying because she had a nightmare.";
         }
     }
 

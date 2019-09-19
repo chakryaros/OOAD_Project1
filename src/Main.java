@@ -1,9 +1,10 @@
 //package src;
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
       ArrayList<Animals> arr = new ArrayList<Animals>();
 
@@ -23,51 +24,13 @@ public class Main {
       Zookeeper keeper = new Zookeeper(arr);
 
       keeper.wakeAnimals();
-      System.out.println("");
-
       keeper.callAnimals();
-      System.out.println("");
-
       keeper.feedAnimals();
-      System.out.println("");
-
       keeper.exerciseAnimals();
-      System.out.println("");
-
       keeper.shutDownZoo();
-      System.out.println("");
 
+      keeper.useFileWriter();
 
-        // cat test
-        /*
-        Animals c = new Cat("Catty", 2);
-        c.sleep();
-        c.displayName();
-        c.makeNoise();
-        */
-
-        // dog test
-        /*
-        Dog dog = new Dog("Daniel", 3);
-        dog.displayName();
-        dog.makeNoise();
-//        dog.Sleep();
-        */
-
-        // Coyote Test
-        /*
-        Coyote coy = new Coyote("Carl", 7);
-        coy.displayName();
-        coy.makeNoise();
-        coy.coyoteSprint();
-        */
-
-        // Zookeeper Interaction Test
-        // This will be the primary way of calling animal methods
-//        Zookeeper zk = new Zookeeper("Zelda", 39);
-//        zk.workWithDogs("Daniel", 2);
-//
-//        zk.workWithCoyotes("Carl", 3);
     }
 
 

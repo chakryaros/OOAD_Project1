@@ -12,12 +12,12 @@ public class Lion extends Feline {
       return this.LionName;
     }
 
-    public void makeNoise() {
-      System.out.println("Roar Roar!");
+    public String makeNoise() {
+      return "Roar Roar!";
     }
 
-    public void wakeUp(){
-      System.out.println(this.LionName + " slowly opens his/her eyes and stretches.");
+    public String wakeUp(){
+      return this.LionName + " slowly opens his/her eyes and stretches.";
     }
 
 }
