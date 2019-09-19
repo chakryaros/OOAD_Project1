@@ -1,0 +1,45 @@
+Time to Open the Zoo! Zookeeper starts to wake up all the animals.
+Cathy slowly opens his/her eyes and stretches.
+Leon slowly opens his/her eyes and stretches.
+Warren slowly opens his/her eyes and stretches.
+Daniel slowly opens his/her eyes and stretches.
+Harry slowly opens his/her eyes and stretches.
+Eva slowly opens his/her eyes and stretches.
+
+
+To make sure everyone is here, Zookeeper starts to call all the animals.
+Meow Meow!
+Roar Roar!
+Woof Woof!
+Bark Bark!
+Wheez Wheez!
+Heah Heah!
+
+
+Can't start working when you are hungry, so Zookeeper starts to feed all the animals.
+Cathy eats the fish in a hurry!
+Leon eats the fish in a hurry!
+Warren eats the steak in a hurry!
+Daniel eats the steak in a hurry!
+Harry eats the banana in a hurry!
+Eva eats the banana in a hurry!
+
+
+Some animals are getting too heavy with all the good food! Zookeeper must make sure all the animals do some exercise after their meals.
+Cathy roams his/her area.
+Leon is lazy and refuses to roam.
+Warren roams his/her area.
+Daniel roams his/her area.
+Harry roams his/her area.
+Eva roams a little and stopped.
+
+
+Time for Closing! What a happy day! Zookeeper closes the doors and turns off the lights.
+Cathy lies down but hasn't fall asleep yet.
+Leon lies down but hasn't fall asleep yet.
+Warren refuses to go to sleep and plays in the dark.
+Daniel falls asleep.
+Harry lies down but hasn't fall asleep yet.
+Eva refuses to go to sleep and plays in the dark.
+
+

@@ -1,4 +1,5 @@
 //package src;
+import java.util.Random;
 
 public class Cat extends Feline {
 
@@ -12,12 +13,23 @@ public class Cat extends Feline {
       return this.catName;
     }
 
-    public void makeNoise() {
-      System.out.println("Meow Meow!");
+    public String makeNoise() {
+      return "Meow Meow!";
     }
 
-    public void wakeUp(){
-      System.out.println(this.catName + " slowly opens his/her eyes and stretches.");
+    public String wakeUp(){
+        Random rand = new Random();
+        int rand_int = rand.nextInt(3);
+
+        if(rand_int == 0) {
+            return this.catName + " slowly opens his/her eyes and stretches.";
+        }
+        else if(rand_int == 1){
+            return this.catName + " wakes up angry because she didn't get enough sleep.";
+        }
+        else{
+            return this.catName + " wakes up crying because she had a nightmare.";
+        }
     }
 
 }
